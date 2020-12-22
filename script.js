@@ -51,3 +51,16 @@ function third() {
   alert(`${t2}${z}F соответствует ${(t2 - 32) * 5/9}` );
   console.log(`${t2}${z}F соответствует ${(t2 - 32) * 5/9}`);
 }
+
+function fourth() {
+  year = prompt('Введите год');
+  result = year % 4 == 0? (year % 100 == 0? false:true) : false;
+  alert(result); 
+};
+
+function fifth() {
+  digit1 = prompt("Введите первое число");
+  digit2 = prompt("Введите второе число");
+  result = (digit1==10)||(digit2==10)||(digit1 + digit2 == 10)? 'Истина':'ложь';
+  alert(result);
+}
