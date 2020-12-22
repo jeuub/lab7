@@ -61,6 +61,6 @@ function fourth() {
 function fifth() {
   digit1 = prompt("Введите первое число");
   digit2 = prompt("Введите второе число");
-  result = (digit1==10)||(digit2==10)||(digit1 + digit2 == 10)? 'Истина':'ложь';
+  result = (digit1==10)||(digit2==10)||(+digit1 + +digit2 == 10)? 'Истина':'ложь';
   alert(result);
 }
